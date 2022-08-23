@@ -171,7 +171,9 @@ window.onload = async () => {
 
   const page = window.location.href;
 
-  if (page.match(/https:\/\/(www\.|)localhost\.com\/p\/\w+/)) {
+  if (page.match(/https:\/\/(www\.|)twitter\.com\/p\/\w+/)) {
+    //
+    // /(?:https?:\/\/www\.)?instagram\.com\S*?\/p\/(\w{11})\/?/
     setTimeout(() => {
       if (config.text) {
         InstagramTextFilter(config.level);

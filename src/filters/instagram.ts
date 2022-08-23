@@ -1,7 +1,7 @@
 import { CreateBlurOverlay, RemoveBlurOverlay } from '../util/overlay';
 import checkPerspectiveApi from './perspective';
 
-const INSTAGRAM_CLASS_NAME = 'ZyFrc';
+const INSTAGRAM_CLASS_NAME = 'css-901oao r-1nao33i r-37j5jr r-a023e6 r-16dba41 r-rjixqe r-bcqeeo r-bnwqim r-qvutc0'; // ZyFrc  _aa06
 
 export async function InstagramTextUnFilter() {
   const elements = [...document.getElementsByClassName(INSTAGRAM_CLASS_NAME)] as HTMLElement[];
